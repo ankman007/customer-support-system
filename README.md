@@ -33,3 +33,6 @@ The solution to this problem is a real-time support system that integrates a que
 - **Celery**: For managing background tasks like message processing and managing queue consumption from RabbitMQ.
 - **Django**: For building the main application structure, including customer support logic, authentication, and communication management.
 
+## Sequence Diagram For The System
+
+![customer support system](https://github.com/user-attachments/assets/995c47bf-28f4-47bd-9b47-616d50655b2a)
