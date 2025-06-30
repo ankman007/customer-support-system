@@ -1,0 +1,22 @@
+{% extends 'layouts/blank.html' %} {% load static %} {% block content %}
+
+
+<div class="flex-1 flex flex-col bg-gray-100">
+  <div class="flex items-center justify-center bg-gray-800 text-white">
+    {% if is_guest_session %}
+    <p>Welcome, guest user!</p>
+    {% else %}
+    <p>Welcome, {{ user.username }}!</p>
+    {% endif %}
+  </div>
+  <div class="flex-1 overflow-hidden flex">
+    <aside class="hidden md:block w-64 bg-white border-r p-4">
+      <h2 class="text-lg font-bold mb-4">Support Info</h2>
+      <p class="text-sm text-gray-600">You're chatting with a real support agent.</p>
+    </aside>
+
+    {% include 'partials/chat.html' %}
+  </div>
+</div>
+
+{% endblock %}

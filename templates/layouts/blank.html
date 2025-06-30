@@ -2,11 +2,9 @@
 
 {% block layout %}
 
-<content class="block w-full">
-
-    {% block content %} 
-    {% endblock %}
-
-</content>
+<div class="block w-full flex-1 flex flex-col">
+  {% block content %} 
+  {% endblock %}
+</div>
 
 {% endblock %}
