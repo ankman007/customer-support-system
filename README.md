@@ -36,3 +36,12 @@ The solution to this problem is a real-time support system that integrates a que
 ## Sequence Diagram For The System
 
 ![customer support system](https://github.com/user-attachments/assets/995c47bf-28f4-47bd-9b47-616d50655b2a)
+
+## Color Codes 
+UI Element	Background	Text Color	Hover Effect
+Primary Button	bg-blue-600	text-white	bg-blue-700
+Secondary Button	bg-gray-700	text-gray-200	bg-gray-600
+Success State	bg-green-600	text-white	bg-green-700
+Danger State	bg-red-600	text-white	bg-red-700
+Warning State	bg-yellow-500	text-gray-900	bg-yellow-600
+Input Fields	bg-gray-700	text-white	focus:ring-blue-500
